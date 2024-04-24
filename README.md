@@ -16,6 +16,33 @@ You have to do this everytime you open a new terminal session.
 # Execute project in production
 - Add the token to the environment variables with the name `NPM_TOKEN` and run the build as usual.
 
+### Building and deploying
+
+Use
+```
+npm run generate
+```
+
+## Cloudflare Serverless/Workers 《Commit priority for prioritized delivery》 
+
+command:
+```
+npm run generate
+```
+Build output directory:
+```
+/dist
+```
+Build system version: 2 (latest)
+Root directory:
+```
+/
+```
+Environment variables:
+Variable
+```
+NPM_TOKEN
+```
 
 #### References
 - https://docs.npmjs.com/using-private-packages-in-a-ci-cd-workflow
